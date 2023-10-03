@@ -1,33 +1,29 @@
+import 'package:meu_app/dados_boolean.dart' as dados_boolean;
+import 'package:meu_app/dados_double.dart' as dados_double;
+import 'package:meu_app/dados_inteiros.dart' as dados_intieros;
+import 'package:meu_app/dados_string.dart' as dados_string;
 import 'package:meu_app/meu_app.dart' as meu_app;
 
 void main(List<String> arguments) {
-  print('Hello world: ${meu_app.calculate()} !!!!!');
+  //print('Hello world: ${meu_app.calculate()} !!!!!');
 
-  String texto = "DIO";
-  var texto2 = "DIO";
-  String texto3;
+  // String texto = "DIO";
+  // var texto2 = "DIO";
+  // String texto3;
 
-  int numero1 = 1;
-  var numero2 = 2;
-  int numero3;
+  // List<String> lista = [];
+  // lista.add("DIO");
 
-  print("Retorna verdadeiro se e somente se esse inteiro for par");
-  print(numero1.isEven);
-  print(numero2.isEven);
+  // var lista1 = []; //lista do tipo dinâmico
+  // lista1.add("DIO");
+  // lista1.add(1);
+  // lista1.add(1.50);
 
-  print("Retorna verdadeiro se e somente se esse inteiro for impar");
-  print(numero1.isOdd);
-  print(numero2.isOdd);
+  //dados_intieros.dadosinteiros();
 
-  print("Retorna verdadeiro se e somente se esse inteiro for finito");
-  print(numero1.isFinite);
-  print(numero2.isFinite);
+  //dados_double.dadosdouble();
 
-  List<String> lista = [];
-  lista.add("DIO");
+  //dados_string.dadosstring();
 
-  var lista1 = []; //lista do tipo dinâmico
-  lista1.add("DIO");
-  lista1.add(1);
-  lista1.add(1.50);
+  dados_boolean.dadosboolean();
 }
